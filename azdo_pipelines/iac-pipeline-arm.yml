@@ -4,7 +4,7 @@ trigger:
     - master
   paths:
     include:
-    - azdo_pipelines/arm-templates/*
+    - iac/arm-templates/*
 
 pool:
   vmImage: 'ubuntu-latest'
