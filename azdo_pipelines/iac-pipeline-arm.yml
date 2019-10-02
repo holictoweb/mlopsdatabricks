@@ -12,7 +12,7 @@ pool:
 variables:
   baseName: $[coalesce(variables['baseNameOverride'], 'zenithmlopsdb')]
   location: $[coalesce(variables['locationOverride'], 'koreacentral')]
-  azuresub: $[coalesce(variables['azuresubOverride'], 'ResourceManagerholic')]
+  azuresub: $[coalesce(variables['azuresubOverride'], 'resourcemanagerjilee')]
 
 steps:
 - task: AzureResourceGroupDeployment@2
